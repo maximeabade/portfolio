@@ -1,0 +1,56 @@
+/* Styles pour chaque élément (tech) dans la grille */
+.tech-item {
+  display: flex;
+  align-items: center; /* Alignez le contenu verticalement au centre */
+  max-width: 500px; /* Largeur maximale de chaque élément */
+  width: 100%; /* Largeur de chaque élément pour remplir la colonne */
+  position: relative; /* Ajoutez une position relative pour gérer l'infobulle */
+}
+
+/* Assurez-vous que les images ne dépassent pas la largeur de leur conteneur */
+.tech-item img {
+  max-width: 10%; /* Largeur maximale de l'image */
+  height: auto; /* Laissez la hauteur ajustée proportionnellement */
+}
+
+/* Style du nom de la tech à droite de l'image */
+.tech-name {
+  text-align: right; /* Alignez le texte à droite */
+  flex-grow: 1; /* Faites en sorte que le nom de la tech prenne tout l'espace disponible */
+}
+/* Styles pour chaque élément (tech) dans la grille */
+.tech-item {
+  display: flex;
+  align-items: center; /* Alignez le contenu verticalement au centre */
+  max-width: 500px; /* Largeur maximale de chaque élément */
+  width: 100%; /* Largeur de chaque élément pour remplir la colonne */
+  transition: transform 0.2s; /* Ajoutez une transition d'animation fluide */
+}
+
+/* Assurez-vous que les images ne dépassent pas la largeur de leur conteneur */
+.tech-item img {
+  max-width: 10%; /* Largeur maximale de l'image */
+  height: auto; /* Laissez la hauteur ajustée proportionnellement */
+}
+
+/* Style du nom de la tech à droite de l'image */
+.tech-name {
+  text-align: right; /* Alignez le texte à droite */
+  flex-grow: 1; /* Faites en sorte que le nom de la tech prenne tout l'espace disponible */
+  margin-left: 1rem; /* Ajoutez une marge à gauche pour l'espace entre l'image et le nom */
+}
+
+/* Appliquez un zoom au survol de l'élément */
+.tech-item:hover {
+  transform: scale(1.5); /* Léger zoom au survol (augmente la taille de 5%) */
+}
+
+/* Styles pour chaque ligne du tableau */
+.myRow {
+  transition: transform 0.2s; /* Ajoutez une transition d'animation fluide */
+}
+
+/* Appliquez un zoom au survol de la ligne */
+.myRow:hover {
+  transform: scale(1.05); /* Léger zoom au survol (augmente la taille de 5%) */
+}

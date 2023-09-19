@@ -1,0 +1,41 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.row {
+  --rowBorder: 1px solid rgb(var(--rgbText) / 0.2);
+
+  border-top: var(--rowBorder);
+  border-left: 0px solid rgb(var(--rgbText) / 0.2);
+
+  &:last-child {
+    border-bottom: var(--rowBorder);
+  }
+  &:first-child {
+    margin-left: 5%;
+  }
+  @nest .head & {
+    border-top: 0;
+  }
+}
+
+.headCell {
+  font-weight: var(--fontWeightMedium);
+  text-align: left;
+}
+
+.cell,
+.headCell {
+  padding-right: var(--spaceXL);
+  padding-top: var(--spaceM);
+  padding-bottom: var(--spaceM);
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+.row:hover {
+  transform: scale(1.1);
+}

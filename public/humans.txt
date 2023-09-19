@@ -1,0 +1,40 @@
+M     M
+MM   MM
+M M M M
+M  M  M
+M     M
+
+
+The humans.txt file explains the team, technology,
+and graphic assets behind this site humanstxt.org.
+
+_______________________________________________________________________________
+
+DESIGNER | デザイナー
+
+Maxime Abade
+Hand crafted design & web development
+
+Design tools:
+Figma
+Photoshop
+
+
+instagram.com/max_abasan/
+github.com/maximeabade
+
+_______________________________________________________________________________
+
+TECHNOLOGY | テクノロジー
+
+React
+Next.js
+Three.js
+Framer Motion
+
+_______________________________________________________________________________
+
+FONTS | フォント
+
+Gotham
+Hiragino Kaku Gothic
