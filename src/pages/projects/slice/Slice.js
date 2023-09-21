@@ -40,9 +40,9 @@ import { Fragment } from 'react';
 import { media } from 'utils/style';
 import styles from './Slice.module.css';
 
-const title = 'Biomedical image collaboration';
+const title = 'Budget Pro Coca-Cola';
 const description =
-  'This project involved designing a better way for biomedical educators and learners to annotate digital slides together.';
+  'This project involved designing a better way to enter and track your budget for your projects.';
 const roles = ['User Research', 'UX Design', 'Interface Design'];
 
 export const Slice = () => {
