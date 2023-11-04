@@ -12,6 +12,8 @@ const DOMPurify = createDOMPurify(window);
 const ORIGINS = [
   'https://maximeabade.fr',
   'https://maximeabade-mailing-6eaa14b5fb60.herokuapp.com',
+  'https://maxime-abade-portfolio-f25405c6170f.herokuapp.com/',
+  'https://maxime-abade-portfolio-f25405c6170f.herokuapp.com/contact',
   'http://85.215.38.237:3000',
   'http://85.215.38.237:3000/contact'
 ];
