@@ -32,9 +32,9 @@ export const Contact = () => {
 
     try {
       setSending(true);
-// 'https://maximeabade-mailing-6eaa14b5fb60.herokuapp.com/send-email'
+// ''
       const response = await fetch(
-        'http://localhost:3001/send-email',
+        'https://maximeabade-mailing-6eaa14b5fb60.herokuapp.com/send-email',
         {
           method: 'POST',
           headers: {
