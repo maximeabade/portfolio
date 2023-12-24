@@ -1,4 +1,4 @@
-import sliceAnnotationLarge from 'assets/-annotation-large.png';
+import sliceAnnotationLarge from 'assets/slice-annotation-large.png';
 import sliceAnnotationPlaceholder from 'assets/slice-annotation-placeholder.png';
 import sliceAnnotation from 'assets/slice-annotation.png';
 import sliceAppLarge from 'assets/slice-app-large.jpg';
