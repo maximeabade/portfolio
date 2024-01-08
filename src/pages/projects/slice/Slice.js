@@ -43,7 +43,7 @@ import styles from './Slice.module.css';
 const title = 'Budget Pro Coca-Cola';
 const description =
   'This project involved designing a better way to enter and track your budget for your projects.';
-const roles = ['User Research', 'UX Design', 'Interface Design'];
+const roles = ['User Research', 'UX Design', 'Interface Design', 'Manager'];
 
 export const Slice = () => {
   return (

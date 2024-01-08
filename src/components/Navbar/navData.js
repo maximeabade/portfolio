@@ -16,7 +16,7 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'Twitter',
-    url: 'https://twitter.com/maximeabade',
+    url: 'https://twitter.com/maxabasan',
     icon: 'twitter',
   },
   {

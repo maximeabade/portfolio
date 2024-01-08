@@ -137,7 +137,7 @@ export const Home = () => {
         title="Budget Pro Coca-Cola"
         description="I managed a team and developed a web app for Coca-Cola to help them manage their budget for projects in Africa, so it is more user friendly than excel tabs."
         buttonText="View project"
-        buttonLink="/projects/slice"
+        buttonLink="/projects/coca-cola"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
