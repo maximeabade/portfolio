@@ -13,7 +13,7 @@ export const Monogram = forwardRef(({ highlight, className, ...props }, ref) => 
       width="46"
       height="29"
       viewBox="0 0 46 29"
-      transform='rotate(180)'
+      style={{ transform: 'rotate(180deg)' }}
       ref={ref}
       {...props}
     >
