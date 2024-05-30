@@ -171,18 +171,21 @@ export const Uses = () => {
                 <TableBody>
                   <TableRow>
                     <TableHeadCell>CPU</TableHeadCell>
-                    <TableCell>11thGen Intel®Core™ i5-1135G7 @ 2.40GHz × 8</TableCell>
+                    <TableCell>14thGen Intel®Core™ i9-14900K @4.4GHZ (6.0 GHZ TURBO) 24Core 32 Threads</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>GPU</TableHeadCell>
-                    <TableCell>Mesa Intel® Xe Graphics (TGL GT2)</TableCell>
+                    <TableCell>NVIDIA 3080ti </TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Memory</TableHeadCell>
-                    <TableCell>Crucial 64GB DDR4 3600mhz CAS 18</TableCell>
+                    <TableCell></TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Triple Monitor</TableHeadCell>
+                    <TableHeadCell>Quadruple Monitor</TableHeadCell>
+                    <TableCell>
+                      3840x1080(32:9) IPS 250hz AOC Agon  AG493QCX 49INCHES UltraWide Curved
+                    </TableCell>
                     <TableCell>
                       2560x1080(21:9) IPS 144hz LG 34WP500 34INCHES UltraWide
                     </TableCell>
@@ -196,7 +199,7 @@ export const Uses = () => {
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Mouse</TableHeadCell>
-                    <TableCell>Dell Laser Mouse MS3220</TableCell>
+                    <TableCell>Razer OROCHI Bluetooth</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Laptops</TableHeadCell>
@@ -204,11 +207,11 @@ export const Uses = () => {
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Headphones</TableHeadCell>
-                    <TableCell>Beats Studio Pro / Beats Executive</TableCell>
+                    <TableCell>Sony XM 5 / Beats Studio Pro / Beats Executive</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Microphone</TableHeadCell>
-                    <TableCell>Marshall MXL 770</TableCell>
+                    <TableCell>Blue Microphone YETI - Logitech</TableCell>
                   </TableRow>
                 </TableBody>
               </Table>
