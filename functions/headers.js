@@ -1,15 +1,15 @@
 exports.handler = async (event, context, callback) => {
   const { request, response } = event.Records[0].cf;
-  const headers = {
+  
+  const securityHeaders = {
     'Strict-Transport-Security': 'max-age=63072000; includeSubDomains; preload',
     'X-XSS-Protection': '1; mode=block',
     'X-Content-Type-Options': 'nosniff',
     'X-Frame-Options': 'SAMEORIGIN',
     'Referrer-Policy': 'no-referrer-when-downgrade',
-    'Content-Security-Policy': 'default-src \'self\';',
+    'Content-Security-Policy': 'default-src \'self\'; upgrade-insecure-requests;',
   };
   
-  export default headers;
   const headerCacheControl = 'Cache-Control';
   const defaultTimeToLive = 60 * 60 * 24 * 365; // 365 days
   const fileExts = [
@@ -53,44 +53,14 @@ exports.handler = async (event, context, callback) => {
   }
 
   // Security headers
-  headers['Strict-Transport-Security'] = [
-    {
-      key: 'Strict-Transport-Security',
-      value: 'max-age=63072000; includeSubDomains; preload',
-    },
-  ];
-
-  headers['X-XSS-Protection'] = [
-    {
-      key: 'X-XSS-Protection',
-      value: '1; mode=block',
-    },
-  ];
-
-  headers['X-Content-Type-Options'] = [
-    {
-      key: 'X-Content-Type-Options',
-      value: 'nosniff',
-    },
-  ];
-
-  headers['X-Frame-Options'] = [
-    {
-      key: 'X-Frame-Options',
-      value: 'SAMEORIGIN',
-    },
-  ];
-
-  headers['Referrer-Policy'] = [
-    { key: 'Referrer-Policy', value: 'no-referrer-when-downgrade' },
-  ];
-
-  headers['Content-Security-Policy'] = [
-    {
-      key: 'Content-Security-Policy',
-      value: 'upgrade-insecure-requests;',
-    },
-  ];
+  for (const [key, value] of Object.entries(securityHeaders)) {
+    response.headers[key.toLowerCase()] = [
+      {
+        key,
+        value,
+      },
+    ];
+  }
 
   callback(null, response);
 };
