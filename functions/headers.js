@@ -6,7 +6,7 @@ exports.handler = async (event, context, callback) => {
     'X-Content-Type-Options': 'nosniff',
     'X-Frame-Options': 'SAMEORIGIN',
     'Referrer-Policy': 'no-referrer-when-downgrade',
-    'Content-Security-Policy': 'default-src 'self';',
+    'Content-Security-Policy': 'default-src \'self\';',
   };
   
   export default headers;
