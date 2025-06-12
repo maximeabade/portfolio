@@ -179,7 +179,7 @@ export const Uses = () => {
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Memory</TableHeadCell>
-                    <TableCell></TableCell>
+                    <TableCell>G.Skill DDR5 Trident Z5 Neo 2x32Go</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Quadruple Monitor</TableHeadCell>
