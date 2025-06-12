@@ -249,7 +249,7 @@ export const TechList = () => {
               <TableCell>
                 <a href={tech.url}>
                   <img
-                    src={'https://maxime-abade-portfolio-f25405c6170f.herokuapp.com/' + tech.logo}
+                    src={'https://maximeabade.com/' + tech.logo}
                     alt={tech.name}
                     className="tech-img"
                     style={{
